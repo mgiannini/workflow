@@ -6,6 +6,7 @@ on:
     tags: ['*']
     paths:
       - 'hxpy/**'
+  workflow:
 
 env:
   REGISTRY: ghcr.io
