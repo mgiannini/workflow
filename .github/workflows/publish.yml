@@ -3,6 +3,9 @@ name: Publish a Docker image
 on:
   push:
     branches: ['main']
+    tags: ['*']
+    paths:
+      - 'hxpy/**'
 
 env:
   REGISTRY: ghcr.io
